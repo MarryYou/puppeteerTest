@@ -90,12 +90,4 @@ Array.from 类似于创建新array实例一样 我们获取到了元素的href �
 for循环去遍历拿到的地址列表 创建新的page页面然后去访问 去找到文字内容的节点然后返回出来 在这里我定义了一个数据 用来接收每个页面文章的内容，for循环完成后 通过res.send函数 返回给前端页面，这样就可以在前端看到我获取到的数据了。  
 borwser.close() 那肯定就是关闭浏览器啊，都操作完了肯定是要结束的啊。  
 文中的page。wateFor() 功能类似我们的timeout 函数差不多     
-######案例2运行截图：
-![02](https://github.com/MarryYou/puppeteerTest/blob/master/02.png)    
-######案例2数据截图：
 
-![03](https://github.com/MarryYou/puppeteerTest/blob/master/03.png)    
-
-以上就是Puppeteer 的测试实例讲解，有兴趣的同学可以深入研究研究，案例太多就不一一解释了。
-#####英文不好的同学看看这个博客 把 有很多常用的api介绍
-https://blog.csdn.net/u010142437/article/details/79136182
