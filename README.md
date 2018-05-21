@@ -10,7 +10,8 @@ https://github.com/GoogleChrome/puppeteer
 ##### 本次测试基于express 框架的基础上 所用到的npm包如下：  
 * express  
 * puppeteer  
-##### 案例1：打开掘金文章并截图 ######前提条件：express 基本的了解和使用：  
+##### 案例1：打开掘金文章并截图   
+###### 前提条件：express 基本的了解和使用  
 ```javascript  
     app.get('/', function (req, res) {
     (async ()=>{
