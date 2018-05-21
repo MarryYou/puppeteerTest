@@ -80,9 +80,7 @@ screenshot 函数的作用就是截图 options 主要有 path、type、fullPage 
         console.log(new Date());
         console.log('end');        
     })()
-})```  
-  
-  
+})```
 上述代码中的访问url就不在讲解了 主要讲解从列表中获取 所有文章的地址 然后访问个个网址提取文章的内容。  
 page.evaluate 函数的主要用途是添加可执行的JavaScript代码段到page中
 我们需要的是获取元素中的地址，所以我们先要找到元素的位置，开控制台找元素就不用多少了把，page.evaluate 函数中 documentSelectorAll 就是来找携带地址的a 元素    
